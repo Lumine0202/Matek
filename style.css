@@ -1,0 +1,29 @@
+table{
+    border: 2px solid black;
+    width: 1200px;
+    height: 450px;
+    text-align: center;
+    font-size: larger;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.color{
+    background-color: rgb(219, 219, 219);
+}
+.color2{
+    background-color: rgb(241, 241, 241);
+}
+@media only screen and (max-width: 600px) {
+    .width{
+        width: fit-content;
+    }
+    .fontsize{
+        font-size: medium;
+    }
+    li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
